@@ -81,7 +81,7 @@ ngx_int_t ngx_x_rid_header_get_variable(ngx_http_request_t *r, ngx_http_variable
   return NGX_OK;
 }   
                                   
-static ngx_str_t  ngx_x_rid_header_variable_name = ngx_string("request_id");
+static ngx_str_t  ngx_x_rid_header_variable_name = ngx_string("request_uuid");
 
 static ngx_int_t ngx_x_rid_header_add_variables(ngx_conf_t *cf)
 {
